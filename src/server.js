@@ -1,6 +1,6 @@
 const express = require('express')
 const dotenv = require('dotenv');
-const { PORT } = require('./config')
+const { PORT } = require('../config')
 const Database = require('./loaders/database');
 const myExpress = require('./loaders/express')
 
